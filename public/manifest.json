@@ -1,14 +1,14 @@
 {
-  "name": "Next.js PWA Firebase",
-  "short_name": "Next.js PWA",
-  "description": "Next.js serverless PWA with Firebase and React Hooks",
+  "name": "EFC Release",
+  "short_name": "EFC Release Notes",
+  "description": "Release Notes for EFC productions",
   "theme_color": "#663399",
   "background_color": "#663399",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.svg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/svg"
     }
   ],
   "display": "standalone",

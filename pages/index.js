@@ -14,7 +14,7 @@ function ArticleListPage ({ articles }) {
   const { query } = useRouter()
   const { user } = useUser()
   return (
-    <>
+    <div>
       <h1>{config.appName}</h1>
 
       <p><em>{config.appTagline}</em></p>
@@ -44,7 +44,7 @@ function ArticleListPage ({ articles }) {
       <p>Get the <a target='_blank' rel='noopener noreferrer' href='https://github.com/tomsoderlund/nextjs-pwa-firebase-boilerplate'>source code for nextjs-pwa-firebase-boilerplate</a></p>
 
       <p>Version {config.appVersion}</p>
-    </>
+    </div>
   )
 }
 
